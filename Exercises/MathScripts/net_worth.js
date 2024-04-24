@@ -1,8 +1,7 @@
-var netWorth = 100000;
+
 var houseAsset = 500000;
-var payments = 3000;
+var paymentsDebts = 3000;
+var netWorth = houseAsset - paymentsDebts;
+var message = "your net worth is ";
 
-console.log(typeof netWorth, typeof houseAsset, typeof payments);
-console.log ("my net worth is " + (netWorth + houseAsset - payments));
-
-console.log ("my net worth is 597000")
+console.log(message + netWorth);
