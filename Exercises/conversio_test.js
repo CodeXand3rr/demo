@@ -9,4 +9,16 @@ var d = "Number 5 ";
 aResult = parseInt (a)
 console.log(aResult);
 
-console.log(parseInt(a))
+
+bResult = parseInt (b)
+console.log(bResult);
+
+
+cResult = parseInt (c)
+console.log(cResult);
+
+
+dResult = parseInt (d)
+console.log(dResult);
+
+
