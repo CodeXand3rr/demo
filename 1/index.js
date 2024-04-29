@@ -1,6 +1,9 @@
-"use strict"
+"use strict";
 
-var bills = 200;
-var number2 = 200
-var result = bills + number2
-console.log(result)
+function add() {
+  var number1 = 200;
+  var number2 = 200;
+  var result = number1 + number2;
+  console.log(result);
+}
+add();
